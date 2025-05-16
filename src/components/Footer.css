@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.gap{
+    @apply mt-5 mb-4 font-bold text-xl;
+}
+
+.color-change{
+    @apply text-gray-300 mb-2 text-lg;
+}
+.change{
+    @apply mb-4;
+}
+
+@theme{
+    --color-blue:#002032;
+}
